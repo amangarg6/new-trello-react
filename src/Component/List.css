@@ -1,0 +1,44 @@
+.list-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure flex items do not wrap */
+    gap: 10px;
+    margin-bottom: 16px; /* Add some margin at the bottom for spacing */
+}
+
+.list-card {
+    flex: 0 0 250px; /* Set a fixed width for each list card */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-card h4 {
+    text-decoration: underline; /* Add underline to the h4 elements within list cards */
+}
+
+.add-list-card {
+    flex: 0 0 250px; /* Set the same fixed width for the add-list card */
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add-list-card input {
+    margin-bottom: 5px;
+}
+
+/* Optional: Style for the bottom scrollbar */
+.list-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.list-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.list-container::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,50 @@
+/* Card.css */
+
+/* Add your custom styles here */
+.list-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative; /* Add this to position comment icon */
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.text-danger {
+  color: #d9534f;
+}
+
+.btn-info {
+  background-color: #5bc0de;
+  color: #fff;
+}
+
+/* Add more styles as needed */
+
+.comment-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: #777; /* Adjust color as needed */
+  cursor: pointer;
+}
+
+.comment-section span {
+  margin-left: 5px;
+}

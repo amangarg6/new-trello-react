@@ -1,0 +1,48 @@
+/* Home.css */
+
+.home-container {
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjB8MTIyNTA3MHx8ZW58MHx8fHx8'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #121111;
+  }
+  
+  .home-container h1 {
+    color: #026AA7;
+  }
+  
+  .home-container p {
+    color: #444;
+    font-size: 18px;
+  }
+  
+  .features-section,
+  .get-started-section {
+    margin-top: 30px;
+  }
+  
+  .features-section h2,
+  .get-started-section h2 {
+    color: #333;
+  }
+  
+  .features-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features-section li {
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #026AA7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

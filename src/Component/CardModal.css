@@ -1,0 +1,75 @@
+/* CardModal.css */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.card-modal {
+  background-color: rgb(242, 239, 239);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 700px;
+  width: 150%;
+  transition: height 0.3s ease; 
+}
+
+.card-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.card-modal-header h3 {
+  margin: 0;
+}
+
+.card-modal-header button {
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.card-modal-body {
+  max-height: 700px; 
+  overflow-y: auto;
+  padding: 15px;
+}
+
+.form-control {
+  width: 100%; /* Adjust the width as needed */
+  height: 50px;
+}
+
+.card-modal-body p {
+  margin: 0;
+  color: #080707;
+}
+
+.card-modal-body button {
+  background-color: #0079bf;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.textarea-container.open {
+  height: 100px; /* Set the height when textarea is open */
+}
+
+/* Add any additional styles as needed */

@@ -1,0 +1,41 @@
+/* Sidebar.css */
+
+.sidebar {
+  background: rgb(119, 191, 202);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar h2 {
+  color: rgb(13, 13, 13);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #0f0f0f;
+  padding-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Ensure the list takes full width */
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  width: 100%; /* Ensure each list item takes full width */
+}
+
+.sidebar .nav-link {
+  color: rgb(14, 12, 12);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .nav-link:hover {
+  color: #0e0d0d;
+  text-decoration: underline;
+}
